@@ -1,0 +1,12 @@
+<VerticalSplit>
+	message: message
+
+	orientation: 'vertical'
+	BoxLayout:
+		orientation: 'horizontal'
+		TextInput:
+			id: message
+			multiline:False
+		Button:
+			text: 'press me'
+			on_press: root.send_message_text()
