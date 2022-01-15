@@ -1,5 +1,9 @@
 import os
 import sys
-import openasis.app
 
-openasis.app.OpenasisApp().run()
+if len(sys.argv) > 1:
+    import openasis.cli
+    openasis.cli.main()
+else:
+    import openasis.app
+    openasis.app.OpenasisApp().run()
