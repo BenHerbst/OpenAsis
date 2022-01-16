@@ -1,17 +1,9 @@
-import kivy
-from kivy.app import App
-from kivy.uix.label import Label
-from kivy.uix.boxlayout import BoxLayout
-from kivy.properties import ObjectProperty
-import openasis.core.core as cr
+import sys
 
-class VerticalSplit(BoxLayout):
-    message = ObjectProperty(None)
-
-    def send_message_text(self):
-        print(cr.take_query(self.message.text))
-        self.message.text = ""
-
-class OpenasisApp(App):
-    def build(self):
-        return VerticalSplit()
+def main():
+    if len(sys.argv) > 1:
+        import openasis.cli.cli as cli
+        cli.main()
+    else:
+        import openasis.desktop.desktop as desktop
+        desktop.OpenasisApp().run()
