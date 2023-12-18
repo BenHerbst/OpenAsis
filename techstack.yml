@@ -1,0 +1,99 @@
+repo_name: BenHerbst/OpenAsis
+report_id: 9f4d0e31309759ca08852e6ee24a244a
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-18T21:51:19+00:00'
+requested_by: BenHerbst
+provider: github
+branch: main
+detected_tools_count: 8
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source: requirements.txt
+  last_updated_by: BenHerbst
+  last_updated_on: 2022-01-16 16:31:31.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: requirements.txt
+  last_updated_by: BenHerbst
+  last_updated_on: 2022-01-16 16:31:31.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source: requirements.txt
+  last_updated_by: BenHerbst
+  last_updated_on: 2022-01-16 16:31:31.000000000 Z
+- name: Kivy
+  description: A software library for rapid development of hardware-accelerated multitouch
+    applications
+  package_url: https://pypi.org/project/Kivy
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20652/default_a2b194ec3319028e4cccf6121f9dc81fa9e44c37.png
+  detection_source: requirements.txt
+  last_updated_by: BenHerbst
+  last_updated_on: 2022-01-16 16:31:31.000000000 Z
+- name: click
+  description: Composable command line interface toolkit
+  package_url: https://pypi.org/project/click
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19830/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source: requirements.txt
+  last_updated_by: BenHerbst
+  last_updated_on: 2022-01-16 16:31:31.000000000 Z
+- name: pyttsx3
+  description: Text to Speech
+  package_url: https://pypi.org/project/pyttsx3
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source: requirements.txt
+  last_updated_by: BenHerbst
+  last_updated_on: 2022-01-16 18:51:14.000000000 Z
